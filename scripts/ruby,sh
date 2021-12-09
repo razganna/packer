@@ -1,7 +1,6 @@
 #!/bin/bash
+set -e
 
-set -euo pipefail
-IFS=$'\n\t'
-
+# Install ruby
 apt update
 apt install -y ruby-full ruby-bundler build-essential
